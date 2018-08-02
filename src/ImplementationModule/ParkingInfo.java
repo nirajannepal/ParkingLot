@@ -1,10 +1,7 @@
 package ImplementationModule;
 
 import SpotsModule.*;
-import VehicleModule.LargeVehicle;
-import VehicleModule.MediumVehicle;
-import VehicleModule.SmallVehicle;
-import VehicleModule.Vehicle;
+import VehicleModule.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,11 +17,13 @@ public class ParkingInfo {
     int totalSizeForMeduimSpots = 4;
     int totalSizeForLargeSpots = 3;
     int totalSizeForXLSpots = 2;
+    int totalSizeForVXLSpots = 1;
 
     Stack<String> stackOfAvailableSmallSpots = new Stack<String>();
     Stack<String> stackOfAvailableMediumSpots = new Stack<String>();
     Stack<String> stackOfAvailableLargeSpots = new Stack<String>();
     Stack<String> stackOfAvailableXLSpots = new Stack<String>();
+    Stack<String> stackOfAvailableVXLSpots = new Stack<String>();
 
     {
         for(int i=1;i<=totalSizeForSmallSpots;i++){
@@ -50,6 +49,11 @@ public class ParkingInfo {
             stackOfAvailableXLSpots.push("XL" + i);
         }
 
+        for(int i=1;i<=totalSizeForVXLSpots;i++){
+            stackOfAvailableVXLSpots.push("VXL" + i);
+        }
+
+
         SpotsForXlVehicle spotsForXlVehicle = new SpotsForXlVehicle(stackOfAvailableXLSpots);
     }
 
@@ -58,7 +62,8 @@ public class ParkingInfo {
             stackOfAvailableSmallSpots,
             stackOfAvailableMediumSpots,
             stackOfAvailableLargeSpots,
-            stackOfAvailableXLSpots
+            stackOfAvailableXLSpots,
+            stackOfAvailableVXLSpots
     };
 
 
@@ -67,10 +72,11 @@ public class ParkingInfo {
      */
     public String spotAvailableOrNot(Vehicle vehicle) {
 
-        ArrayList<Stack<String>> stacksOfspotsStackForSmallVehicle = generateSpotnamesForVehiclesParking(new int[]{3,2,1,0});
-        ArrayList<Stack<String>> stacksOfspotsStackForMediumVehicle = generateSpotnamesForVehiclesParking(new int[]{3,2,1});
-        ArrayList<Stack<String>> stacksOfspotsStackForLargeVehicle = generateSpotnamesForVehiclesParking(new int[]{3,2});
-        ArrayList<Stack<String>> stacksOfspotsStackForXlVehicle = generateSpotnamesForVehiclesParking(new int[]{3});
+        ArrayList<Stack<String>> stacksOfspotsStackForSmallVehicle = generateSpotnamesForVehiclesParking(new int[]{4, 3,2,1,0});
+        ArrayList<Stack<String>> stacksOfspotsStackForMediumVehicle = generateSpotnamesForVehiclesParking(new int[]{4, 3,2,1});
+        ArrayList<Stack<String>> stacksOfspotsStackForLargeVehicle = generateSpotnamesForVehiclesParking(new int[]{4, 3,2});
+        ArrayList<Stack<String>> stacksOfspotsStackForXlVehicle = generateSpotnamesForVehiclesParking(new int[]{4, 3});
+        ArrayList<Stack<String>> stacksOfspotsStackForVXlVehicle = generateSpotnamesForVehiclesParking(new int[]{4, 3});
 
         String spotAvailableOrNotInformation;
 
@@ -83,9 +89,12 @@ public class ParkingInfo {
         }else if (vehicle instanceof LargeVehicle){
             String license = vehicle.getLicenseNumber();
             spotAvailableOrNotInformation = addToHashMAp(license,stacksOfspotsStackForLargeVehicle, currentSituationInParkingLot);
-        }else {
+        }else if (vehicle instanceof XlVehicle){
             String license = vehicle.getLicenseNumber();
             spotAvailableOrNotInformation = addToHashMAp(license,stacksOfspotsStackForXlVehicle, currentSituationInParkingLot);
+        }else {
+            String license = vehicle.getLicenseNumber();
+            spotAvailableOrNotInformation = addToHashMAp(license,stacksOfspotsStackForVXlVehicle, currentSituationInParkingLot);
         }
 
         return spotAvailableOrNotInformation;

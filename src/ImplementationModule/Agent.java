@@ -1,10 +1,7 @@
 package ImplementationModule;
 
 
-import VehicleModule.LargeVehicle;
-import VehicleModule.MediumVehicle;
-import VehicleModule.SmallVehicle;
-import VehicleModule.XlVehicle;
+import VehicleModule.*;
 
 public class Agent {
 
@@ -23,8 +20,11 @@ public class Agent {
         }else if (sizeOfCar.equals("large")){
             LargeVehicle largeVehicle = new LargeVehicle(licensePlate);
             answer = parkingInfo.spotAvailableOrNot(largeVehicle);
-        }else{
+        }else if (sizeOfCar.equals("XLLarge")){
             XlVehicle xlVehicle = new XlVehicle(licensePlate);
+            answer = parkingInfo.spotAvailableOrNot(xlVehicle);
+        }else if (sizeOfCar.equals("VXLarge")){
+            VeryLargeXlVehicle xlVehicle = new VeryLargeXlVehicle(licensePlate);
             answer = parkingInfo.spotAvailableOrNot(xlVehicle);
         }
 

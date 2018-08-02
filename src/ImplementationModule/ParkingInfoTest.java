@@ -79,6 +79,26 @@ public class ParkingInfoTest {
 
     }
 
+
+    @Test
+    public void addToHashMapTestForVeryLargeVehicles(){
+        ParkingInfo parkingInfo = new ParkingInfo();
+
+
+        ArrayList<Stack<String>> possibleVLargeCarsParkingSpotscollection = parkingInfo.generateSpotnamesForVehiclesParking(new int[]{4});
+        HashMap<String, String> currentlyParkedStateMap = new HashMap<String, String>();
+
+        String spotName = parkingInfo.addToHashMAp("ABC",possibleVLargeCarsParkingSpotscollection, currentlyParkedStateMap);
+        Assert.assertEquals( "VXL1", spotName);
+        Assert.assertEquals(1,currentlyParkedStateMap.size());
+
+        System.out.println(spotName);
+
+
+
+    }
+
+
     @Test
     public void addToHashMapTestInEmptyParkingLot(){
         ParkingInfo parkingInfo = new ParkingInfo();
