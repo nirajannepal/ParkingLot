@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4d1bdb8-f3dd-4640-b27d-f847943f9046" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SpotsModule/SpotsForVeryLargeXlVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VehicleModule/VeryLargeXlVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImplementationModule/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImplementationModule/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImplementationModule/ParkingInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImplementationModule/ParkingInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImplementationModule/ParkingInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImplementationModule/ParkingInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainParkingStartPoint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +14,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="MainParkingStartPoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainParkingStartPoint.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
@@ -51,8 +47,8 @@
       <file leaf-file-name="ParkingInfoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="435">
+              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addToHashMapTestForSmallVehicles#0;class#ParkingInfoTest#0" />
@@ -62,6 +58,18 @@
                 <element signature="e#3416#3432#0" expanded="true" />
                 <element signature="method#addToHashMapTestInEmptyParkingLot#0;class#ParkingInfoTest#0" />
                 <element signature="e#3403#3419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,7 +271,7 @@
   </component>
   <component name="RunManager" selected="JUnit.ParkingInfoTest.addToHashMapTestForVeryLargeVehicles">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="MainParkingStartPoint" />
       <module name="ParkingLot" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -379,23 +387,11 @@
       <option name="presentableId" value="Default" />
       <updated>1533134549485</updated>
       <workItem from="1533134556866" duration="13845000" />
-      <workItem from="1533152468450" duration="18386000" />
+      <workItem from="1533152468450" duration="19765000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingInfoTest_addToHashMapTest - 2018.08.01 at 19h 18m 40s.xml">
-      <configuration name="ParkingInfoTest.addToHashMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingInfoTest_addToHashMapTest - 2018.08.01 at 19h 25m 41s.xml">
-      <configuration name="ParkingInfoTest.addToHashMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingInfoTest_addToHashMapTest - 2018.08.01 at 19h 27m 34s.xml">
-      <configuration name="ParkingInfoTest.addToHashMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingInfoTest_addToHashMapTest - 2018.08.01 at 19h 33m 43s.xml">
-      <configuration name="ParkingInfoTest.addToHashMapTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParkingInfoTest_addToHashMapTest - 2018.08.01 at 19h 34m 37s.xml">
       <configuration name="ParkingInfoTest.addToHashMapTest" configurationId="JUnit" />
     </history-entry>
@@ -414,13 +410,24 @@
     <history-entry file="ParkingInfoTest - 2018.08.01 at 19h 56m 25s.xml">
       <configuration name="ParkingInfoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParkingInfoTest_addToHashMapTestForVeryLargeVehicles - 2018.08.02 at 19h 43m 29s.xml">
+      <configuration name="ParkingInfoTest.addToHashMapTestForVeryLargeVehicles" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingInfoTest_addToHashMapTestForVeryLargeVehicles - 2018.08.02 at 19h 44m 16s.xml">
+      <configuration name="ParkingInfoTest.addToHashMapTestForVeryLargeVehicles" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingInfoTest_addToHashMapTestForVeryLargeVehicles - 2018.08.02 at 19h 44m 41s.xml">
+      <configuration name="ParkingInfoTest.addToHashMapTestForVeryLargeVehicles" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingInfoTest_addToHashMapTestForVeryLargeVehicles - 2018.08.02 at 19h 44m 55s.xml">
+      <configuration name="ParkingInfoTest.addToHashMapTestForVeryLargeVehicles" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32231000" />
+    <option name="totallyTimeSpent" value="33610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -432,7 +439,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973047" weight="0.32924336" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973047" weight="0.32889345" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49973047" visible="true" weight="0.32991803" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -513,7 +520,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/MainParkingStartPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -802,7 +809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/MainParkingStartPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
@@ -816,22 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#337#0" expanded="true" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#359#367#0" expanded="true" />
-            <element signature="e#427#435#0" expanded="true" />
-            <element signature="e#495#503#0" expanded="true" />
-            <element signature="e#888#896#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,10 +847,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="435">
+          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addToHashMapTestForSmallVehicles#0;class#ParkingInfoTest#0" />

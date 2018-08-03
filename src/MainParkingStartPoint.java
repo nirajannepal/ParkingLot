@@ -2,7 +2,7 @@ import ImplementationModule.Agent;
 
 import java.util.Stack;
 
-public class Main {
+public class MainParkingStartPoint {
 
     public static void main(String[] args) {
 
