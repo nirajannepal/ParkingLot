@@ -10,7 +10,4 @@ public class SpotsForXlVehicle implements Spots {
     }
 
 
-
-
-
 }
