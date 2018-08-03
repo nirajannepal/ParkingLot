@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4d1bdb8-f3dd-4640-b27d-f847943f9046" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainParkingStartPoint.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4d1bdb8-f3dd-4640-b27d-f847943f9046" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingInfoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParkingInfoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -75,16 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpotsForVeryLargeXlVehicle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SpotsModule/SpotsForVeryLargeXlVehicle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParkingInfoFunctionalTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ParkingInfoFunctionalTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfoFunctionalTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -387,7 +376,7 @@
       <option name="presentableId" value="Default" />
       <updated>1533134549485</updated>
       <workItem from="1533134556866" duration="13845000" />
-      <workItem from="1533152468450" duration="19765000" />
+      <workItem from="1533152468450" duration="20158000" />
     </task>
     <servers />
   </component>
@@ -424,7 +413,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33610000" />
+    <option name="totallyTimeSpent" value="34003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -762,17 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpotsModule/SpotsForXlVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpotsModule/SpotsForMediumVehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -833,13 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfoFunctionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpotsModule/SpotsForVeryLargeXlVehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -871,6 +842,24 @@
             <element signature="method#addToHashMapTestInEmptyParkingLot#0;class#ParkingInfoTest#0" />
             <element signature="e#3403#3419#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpotsModule/SpotsForXlVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImplementationModule/ParkingInfoFunctionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
